@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/xml; charset=utf-8" />
+    <title>Truc's Site.html</title>
+	<script type="text/javascript">
+	  //<![CDATA[
+	     count = 0;
+	     function validate() 
+		 { 
+		   var code = prompt("Enter passcode:");
+		   if(code)
+		     {
+		     while (code != 122395 && code != null)
+		     {
+		       code = prompt("Invalid input. Enter passcode:");
+			   count++;
+			   if((count == 3) && (code != 122395))
+			   {
+		         alert("You have entered more than 3 invalid passcodes. Good bye!");
+			     break;
+			   }		
+		     } 
+		     if((count <= 3) && (code == 122395))
+		     {
+		       document.articles.action = "articles.html";		     
+		     }
+		   }
+		   return false;
+		 }
+		 
+	  //]]>
+	</script>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "threeColMinHeight.css" />
+		  
+	<style>
+	a{text-decoration:none}
+	</style>
+  </head>
+
+  <body>
+    <div id = "head">
+      <h1>My  <em> ...under construction... </em> Web Site</h1>
+	   
+    </div>
+    
+    <div id = "left">
+      <h2>Videos, Photos...</h2>
+      
+    </div>
+
+    <div id = "articleCenter">
+	
+	  <div id = "personalInfoBox">
+	  
+	    <span class="personalIndo"> Name: Truc Pham</span> </br>
+	    <span class="personalIndo"> Born: August 19 </span> </br>
+		<span class="personalIndo"> Zodiac Sign: Leo </span> </br>
+		<span class="personalIndo"> CSU Fullerton Alumnus</span> </br>
+		<span class="personalIndo"> Hobbies: Play guitar, sing in a choir, break computers...</span> </br>
+	  </div>
+	  
+	  
+	  <h2> Favorite Links </h2>
+	  <form name = "articles" onSubmit="validate()">
+		<input type = "submit" class = "button" value = "Family Page" />
+	  </form>
+	  
+	  <form action="thanhca.html">
+		<input type = "submit" class = "button" value = "CD HienLinh" />
+	  </form>
+	  
+	  <form action="index.html">
+		<input type = "submit" class = "lastbutton" value = "About me" />
+	  </form>
+	  
+	  </br>
+
+      <div class="linksbox">
+	    <h3 class="alphabet">A</h3>
+		
+		   <a href ="http://www.att.com" target= _blank> AT&T Company</a> </br>
+		   <a href ="http://www.adt.com" target= _blank>ADT Security</a> </br>
+		   <a href ="http://www.americangeneral.com" target= _blank>AGL Insurance</a> </br>
+	       <a href ="http://www.21st.com" target= _blank>Automobile Insurance</a> </br>
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">B</h3>
+		
+		   <a href ="http://www.bankofamerica.com" target= _blank> Bank Of America</a> </br>
+		   <a href ="http://www.guitarpress.com/Barrios.html" target= _blank> Barrios Classical Guitar</a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">C</h3>
+		
+		   <a href ="http://www.fullerton.edu" target= _blank>Cal State Fullerton</a> </br>
+		   <a href ="https://employee.coca-cola.com" target= _blank>Coke CCR </a> </br>
+		   <a href ="https://email.coca-cola.com" target= _blank>Coke Email</a> </br>
+		   <a href ="http://www.mycoca-cola401k.com" target= _blank>Coke Thrift Plan</a> </br>
+		   
+		   <a href ="http://www.myuhc.com" target= _blank>Coke UHC </a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">D</h3>
+		
+		   <a href ="http://www.dropbox.com" target= _blank>Dropbox</a> </br>
+		   <a href ="http://www.dmv.com/ca/california" target = _blank> DMV </a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">E</h3>
+		
+		   <a href ="http://www.english-daily.com/" target= _blank>English Daily</a> </br>
+	       <a href ="http://www.sce.com/" target= _blank>Electricity Service</a> </br>
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">F</h3>
+		   <a href ="http://www.facebook.com" target= _blank>Facebook</a> </br>
+		   <a href ="http://www.frys.com" target= _blank>Frys Electronic</a> </br>
+		   <a href ="http://ads.ocregister.com/rop/web/ocr/subcategory.php?id=22" target= _blank>Frys Electronic Ads</a> </br>
+	       <a href ="http://www.farmers.com" target= _blank>Farmers Insurance</a> </br>
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">G</h3>
+		
+		  <a href ="http://www.google.com" target= _blank>Google</a> </br>
+		  <a href ="http://www.gtservicing.com" target= _blank>GreenTree Mortgage </a> </br>
+	      <a href ="http://mykids.ggusd.us" target= _blank>GGR Aeries Portal </a> </br>
+		  <a href ="http://www.socalgas.com" target= _blank>Gas Service</a> </br>
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">P</h3>
+		
+		   <a href ="" target= _blank></a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">S</h3>
+		
+		   <a href ="http://sat.collegeboard.org/scores/" target= _blank>SAT Account</a> </br>
+		   <a href ="http://www.samash.com/" target= _blank>Sam Ash Musical </a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">T</h3>
+		
+		  <a href ="http://www.thanhcavietnam.net/ThanhCaVN/#Home" target= _blank>Thanh Ca Viet Nam</a> </br>
+		  <a href ="http://www.catruong.com" target= _blank>Thanh Ca _ catruong.com</a> </br>
+		  <a href ="http://www.disposal.com" target= _blank>Trash Service</a> </br>
+	      <a href ="http://tax.ocgov.com/tcweb/search_page.asp" target= _blank>Tax_Property</a> </br>
+		  
+	  </div>
+	  
+	   <div class="linksbox">
+	    <h3 class="alphabet">W</h3>
+		
+		   <a href ="http://garden-grove.org/water" target= _blank>Water Service</a> </br>
+	    
+	  </div>
+	  
+	  <div class="linksbox">
+	    <h3 class="alphabet">Y</h3>
+		
+		  <a href ="http://www.youtube.com" target= _blank>YouTube</a> </br>
+	      <a href ="http://www.yahoo.com" target= _blank>Yahoo</a> </br>
+	  </div>
+	  
+    </div>
+    <div id = "right">
+      <h2>Music</h2>
+      <ul>
+         <!-- add four list items -->
+		 <li><a href = "https://www.dropbox.com/sh/ii5kpokmqfauj49/6iN5Vk_yB2" target= _blank>Hai Linh</a></li>
+         <li><a href = "https://www.dropbox.com/sh/kwegi4rz7a1k9vf/c1AM9UG7OC" target= _blank>Chopin by Dang Thai Son</a></li>
+		
+       </ul>
+    </div>
+
+    <div id = "footer">
+      <h3>under construction...</h3>
+    </div>
+  </body>
+</html>
+
